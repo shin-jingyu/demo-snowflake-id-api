@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     compileOnly("org.springframework.boot:spring-boot-autoconfigure:3.4.4")
-    compileOnly("org.springframework.boot:spring-boot-starter-data-jpa:3.4.4") // FIXME use hibernate
+    compileOnly("org.springframework.boot:spring-boot-starter-data-jpa:3.4.4")
 
     testImplementation("org.springframework.boot:spring-boot-starter-web:3.4.4")
     testImplementation("org.springframework.boot:spring-boot-starter-data-jpa:3.4.4")
